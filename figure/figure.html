@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Figure</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+    <link href="figure.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div id="box">
+
+                <h1>Welcome World</h1>
+
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+
+            </div>
+        </header>
+
+
+        <nav>
+            <div class="slider-wrapper theme-default">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/texans.jpg" data-thumb="images/texans.jpg" alt="texans" />
+                    <img src="images/miami.jpg" data-thumb="images/miami.jpg" alt="miami" />
+                    <a href="https://broncosports.com/sports/football"><img src="images/boise.jpg" data-thumb="images/boise.jpg" alt="boise" title="This is an example of a caption" /></a>
+                    <img src="images/ohio.jpg" data-thumb="images/ohio.jpg" alt="" data-transition="slideInLeft" />
+
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                </div>
+            </div>
+        </nav>
+        <section>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+            <figure>
+                <img src="skater.jpg">
+                <figcaption>This skater is a champion.</figcaption>
+            </figure>
+        </section>
+        <footer>
+            Footer
+        </footer>
+    </div>
+    <!--End wrap-->
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+</body>
+
+</html>
