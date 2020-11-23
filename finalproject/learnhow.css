@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 85%;
+
+}
+
+
+header,
+nav,
+footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #1d542c;
+}
+
+header img {
+    width: 100%;
+}
+
+nav {
+    background-color: #2981cf;
+    text-align: center;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+
+
+}
+
+nav li a:hover {
+    background-color: #0e518c;
+    border-radius: 8px;
+}
+
+section {
+    background-color: #1cad5b;
+    overflow: auto;
+
+}
+
+section h1 {
+    color: white;
+    font-size: 180%;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 10px;
+    text-align: center;
+}
+
+section p {
+    color: white;
+    font-size: 130%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+section h2 {
+    color: white;
+    font-size: 180%;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+footer {
+    background-color: #00329e;
+    text-align: center;
+    color: white;
+    font-size: 105%;
+    font-family: "Lucida Console", Monaco, monospace;
+    padding: 10px;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    body {
+        background-color: beige;
+    }
+
+    #wrap {
+        width 100%;
+    }
+
+    nav a {
+        display: block;
+        padding: 10px 0;
+        width: 90%;
+    }
+
+    nav ul,
+    nav li {
+        margin: 0;
+        padding: 0;
+    }
+
+    nav {
+        padding: 0;
+    }
